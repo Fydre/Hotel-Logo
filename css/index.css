@@ -13,3 +13,8 @@ button{
   border: 0;
   color: white;
 }
+.nav .info{
+  padding: 20px 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
