@@ -1,6 +1,14 @@
 button{
   font-weight: bold
 }
+cite{
+  font-weight: lighter;
+  font-size: 10px;
+  color: #8D8D8D
+}
+span{
+  color: #8D8D8D
+}
 .read{
   height: 40px;
   width: 150px;
@@ -14,7 +22,64 @@ button{
   color: white;
 }
 .nav .info{
-  padding: 20px 5vw;
+  padding: 0 5vw;
+  height: 35px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: #919191;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10vw
+  padding: 0 20px 0 0
+}
+.nav a{
+  text-decoration: none;
+  color: #919191
+}
+.nav .pageStat{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3vw
+}
+.nav .accStat{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3vw;
+  align-items: center;
+}
+.nav .pay, .nav .terms, .nav .mail, .account{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px
+}
+.nav .account{
+  background: #B99982;
+  justify-items: center;
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.checkInOut{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.bayview{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.discover{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+body .cardListL{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.news{
+
+}
+.news .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
 }
