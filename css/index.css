@@ -1,13 +1,24 @@
 button{
   font-weight: bold
 }
+a{
+  text-decoration: none;
+  color: black
+}
 cite{
   font-weight: lighter;
   font-size: 10px;
-  color: #8D8D8D
+  color: #8D8D8;
+  margin:
 }
 span{
   color: #8D8D8D
+}
+.line{
+  width: 30px;
+  height: 3px;
+  color: #999999;
+  margin: 20px 0 10px 0;
 }
 .read{
   height: 40px;
@@ -23,14 +34,13 @@ span{
 }
 .nav .info{
   padding: 0 5vw;
-  height: 35px;
+  height: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #919191;
   justify-items: center;
   align-items: center;
   grid-gap: 10vw
-  padding: 0 20px 0 0
 }
 .nav a{
   text-decoration: none;
@@ -55,18 +65,84 @@ span{
 .nav .account{
   background: #B99982;
   justify-items: center;
+  height: 100%;
+
 }
 nav{
   display: grid;
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: #979797;
+  background: #1C1C1C;
+  padding: 25px 5vw
+}
+h1{
+  font-size: 20px;
+  color: white;
+}
+.logo sub{
+  color: white;
+  font-size: 10px;
+  justify-items: center;
+}
+nav ul{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr)
+}
+header .content{
+  display: grid;
+  justify-items: center;
+  background: black;
+  color: white;
+  padding: 75px 0;
+}
+header cite{
+  color: white;
+  padding-bottom: 20px
+}
+header .text button{
+  background: none;
+  border: 5px solid white;
+  padding: 15px 35px;
+  color: white;
+  margin-left: 18vw;
+  margin-bottom: 100px;
+}
+h2{
+  font-size: 50px;
+  margin-bottom: 65px
 }
 .checkInOut{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  background: white;
+  color: black;
+  padding: 30px 75px;
+}
+.check em{
+  font-size: 30px
+}
+.check h3{
+  color: #8D8D8D;
+  padding: 10px
+}
+.check .time{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.checkInOut button{
+  background: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding:30px
 }
 .bayview{
   display: grid;
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1fr;
 }
 .discover{
   display: grid;
