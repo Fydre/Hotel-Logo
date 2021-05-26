@@ -5,6 +5,6 @@
     <title></title>
   </head>
   <body>
-    A R C H I VE
+    <a href="index.php">Teleport</a>
   </body>
 </html>
