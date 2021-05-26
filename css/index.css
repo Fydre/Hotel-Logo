@@ -1,8 +1,11 @@
 *{
   display: block;
 }
+h4{
+  font-size: 30px;
+  margin-bottom: 20px
+}
 .img{
-  background: black;
   overflow: hidden;
 }
 .img img{
@@ -76,15 +79,24 @@ span{
   grid-gap: 3vw;
   align-items: center;
 }
-.nav .pay, .nav .terms, .nav .mail, .account{
+.nav .pay *, .nav .terms *, .nav .mail *, .account *, .nav a{
+  display: inline-block;
+  white-space: nowrap;
+}
+.accStat .account{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px
+  grid-template-columns: 30px 1fr
+}
+.account a{
+  display: block;
+}
+.nav .lang *{
+  display: inline-block;
 }
 .nav .account{
   background: #B99982;
   justify-items: center;
-  height: 100%;
+  height: 80%;
   align-items: center;
   padding: 5px;
 }
@@ -123,7 +135,7 @@ nav ul{
 header .content{
   display: grid;
   justify-items: center;
-  background: black;
+  background-image: url("../res/EEEE.jpg");
   color: white;
   padding: 75px 0;
 }
@@ -152,8 +164,11 @@ h2{
   color: black;
   padding: 30px 75px;
 }
-.check em{
+.checkInOut em{
   font-size: 30px
+}
+.checkInOut i{
+  color: gray
 }
 .check h3{
   color: #8D8D8D;
@@ -173,10 +188,19 @@ h2{
   padding:30px;
   margin: 0
 }
+.guests{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px
+}
+.guests i{
+  display: block;
+}
 .bayview{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 60px 5vw
+  padding: 0 5vw;
+  height: 100vh
 }
 .bayview cite{
   margin-top: 20px;
@@ -189,6 +213,10 @@ h2{
   background: #AE8F7B;
   padding: 15px 35px;
   color: white
+}
+.bayview .text{
+  display: grid;
+  align-items: center;
 }
 .best{
   background: #F9F9F9;
@@ -219,21 +247,136 @@ h2{
   background: white;
   padding: 20px;
 }
-.best .room h4{
-  font-size: 30px
+.best .detail .review{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+.best .cardList .card{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  position:  relative;
+  background: black
+}
+.best .card img{
+  width: 100%
+}
+.best .card .text{
+  position: absolute;
+  bottom: 20px
 }
 .discover{
   display: grid;
   grid-template-columns: 1fr 1fr
 }
-body .cardListL{
+.discover h3{
+  color: white
+}
+.discover h3 span{
+  color: #B49F80
+}
+.discover .text{
+  background: #1C1C1C;
+  padding: 95px 5vw
+}
+.extra{
+  padding: 70px 10vw
+}
+.cardListL{
+  padding: 60px 5vw;
+  background: #F9F9F9
+}
+body .cardListL .cardlist{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: white
+}
+.cardListL .cardlist .text{
+  padding: 30px
+}
+.video{
+  color: white;
+  display: grid;
+  justify-items: center;
+  background: black;
+  grid-gap: 100px
+}
+.video h3{
+  margin-top: 100px
+}
+.video i{
+  font-size: 150px;
+}
+.news{
+  padding: 70px 10vw;
+  background: #F9F9F9
+}
+.news .cardList{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-items: space-between;
+}
+#body .news .card{
+  margin-bottom: 30px;
+  width: 20vw;
+  margin-right: auto;
+}
+#body .news .cardList:last-child{
+  margin-right: 0;
+}
+.news .card .text{
+  padding: 20px
+}
+.news .buy{
+  height: 100px;
+  background: black
+}
+.news .cited{
+  background: #B8987F;
+  padding: 20px
+}
+.news .imgCard .img{
+  position: relative;
+}
+.news .imgCard .text{
+  position: absolute;
+}
+footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #1C1C1C;
+  padding: 70px 10vw;
+}
+footer h3{
+  color: white;
+  font-size: 35px;
+}
+footer .weather em{
+  font-size: 20px;
+  color: white
+}
+footer cite{
+  font-size: 15px
+}
+footer button{
+  padding: 15px 35px;
+  background: #B8987F;
+  border: none;
+  color: white;
+  margin:0;
+  margin-left: 5px
+}
+footer form{
   display: grid;
   grid-template-columns: 1fr 1fr
 }
-.news{
-
-}
-.news .cardList{
+footer .info{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr
+  grid-template-columns: 30px 30px 30px;
+  color: white
+}
+footer .info span{
+  font-size: 10px
 }
