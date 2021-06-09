@@ -5,6 +5,10 @@
     <title></title>
   </head>
   <body>
-    <a href="index.php">Teleport</a>
+    <?php
+      foreach ($_SERVER as $key => $items) {
+        print_r($key. ": ". $items. "<br>");
+      };
+    ?>
   </body>
 </html>
