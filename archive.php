@@ -1,15 +1,48 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-1024">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <title>Document</title>
-  </head>
-  <body>
+<?php
+  include "component/header.php"
+ ?>
+    <header class="archive">
+      <?php
+        include "component/nav.php"
+       ?>
+      <div class="content">
+        <h2>SEARCH</h2>
+      </div>
+      <div class="filter">
+        <div class="numberSelect">
+          <div>
+            <span>Guest Reviews</span>
+            <!-- insert icon -->
+          </div>
+          <div>
+            <span>Stay Price</span>
+            <!-- insert icon -->
+          </div>
+          <div>
+            <span>Room Size</span>
+            <!-- insert icon -->
+          </div>
+        </div>
+        <div class="iconList">
+          <!-- insert icon -->
+          <!-- insert icon -->
+          <!-- insert icon -->
+        </div>
+      </div>
+    </header>
+    <div class="main archive">
+      <div class="sectionList">
+        <div class="leftMenu">
 
-  </body>
-</html>
+        </div>
+        <div class="container">
+          <div class="numberInfo">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  <?php
+    include "component/footer.php"
+   ?>
