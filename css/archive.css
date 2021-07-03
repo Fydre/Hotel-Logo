@@ -2,3 +2,8 @@ header.archive h2{
   margin: 100px 0;
   font-size: 70px;
 }
+.archive .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
