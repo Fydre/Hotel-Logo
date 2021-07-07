@@ -110,7 +110,7 @@
       </div>
       <div class="cardList">
         <?php
-          for ($i=0; $i < 5; $i++) {
+          for ($i=0; $i < 4; $i++) {
             echo "<div class=\"card\">
               <div class=\"img\">
                 <img src=\"\" alt=\"\">
@@ -120,7 +120,7 @@
                 <div class=\"roomratings\">
                   <span>5 Reviews</span><span>3 Guests</span><span>25M²</span>
                 </div>
-                <span>hfbluifwjehnchduheuieowueijrrelregiuujjuhfffuuujuujghhghgghgggggggdbcjöpcbuidbfpvjbjdsdpifsbföupcndjjfcbduödnvejawuibvdbaevbfdpbvcibdcbasuidibcasduibfcudsabfiodsubafudasibasuibsuoidbiuf</span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam sequi culpa consectetur unde, in molestiae blanditiis illo nesciunt, ab dolorum consequatur itaque quam! Debitis!</span>
                 <button class=\"read\">Book for XXX$</button>
               </div>
             </div>";
