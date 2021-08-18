@@ -51,6 +51,12 @@ header.archive .filter{
 .monthselect span{
   color: #C4A183;
 }
+.numfilter:first-child{
+  margin-bottom: 20px;
+  display: grid;
+  grid-template: 1fr auto;
+  justify-items: center;
+}
 .numfilter .date{
   display: grid;
   grid-template-columns: 1fr 1fr
@@ -64,6 +70,7 @@ header.archive .filter{
   display: grid;
   grid-template-columns: 1fr 1fr
 }
+
 .main .card{
   color: white;
   border: solid 3px silver
