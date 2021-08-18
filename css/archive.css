@@ -2,6 +2,14 @@ header.archive h2{
   margin: 100px 0;
   font-size: 70px;
 }
+header.archive .filter{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 35px 0;
+  background: #1C1C1C;
+}
 .main{
   padding: 0 5vw
 }
@@ -39,4 +47,24 @@ header.archive h2{
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
+}
+.monthselect span{
+  color: #C4A183;
+}
+.numfilter .date{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.numfilter em{
+  font-size: 40px;
+  text-align: center;
+  color: #C4A183;
+}
+.selectguestnum{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.main .card{
+  color: white;
+  border: solid 3px silver
 }

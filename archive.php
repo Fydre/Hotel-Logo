@@ -35,7 +35,7 @@
           <div class="numfilter">
             <div class="numcontainer">
               <span>All Branches</span>
-              <!-- insert Icon here -->
+              <i class="fas fa-chevron-down"></i>
             </div>
             <div class="nums">
               <div class="numcontainer">
@@ -44,7 +44,7 @@
                   <em>26</em>
                   <div class="monthselect">
                     <span>Jun</span>
-                    <!-- insert Icon here -->
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                 </div>
               </div>
@@ -54,15 +54,17 @@
                   <em>28</em>
                   <div class="monthselect">
                     <span>Jun</span>
-                    <!-- insert Icon here -->
+                    <i class="fas fa-chevron-down"></i>
                   </div>
                 </div>
               </div>
               <div class="numcontainer">
                 <h3>guests</h3>
-                <em>1</em>
-                <div class="updownchevron">
+                <div class="selectguestnum">
+                  <em>1</em>
+                  <div class="updownchevron">
 
+                  </div>
                 </div>
               </div>
               <div class="numcontainer">
